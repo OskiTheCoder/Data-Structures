@@ -15,7 +15,7 @@ class Queue:
         return self.items.pop()
 
     def enqueue(self, value):
-        self.items.append(value)
+        self.items.insert(0,value)
 
     def print_queue(self):
 

@@ -13,10 +13,10 @@ class Stack:
         self.items = []
 
     def push(self, value):
-        self.items.insert(0, value)
+        self.items.append(value)
 
     def pop(self):
-        return self.items.pop(0)
+        return self.items.pop()
 
     def size(self):
         return len(self.items)
@@ -28,4 +28,3 @@ class Stack:
 
         for item in self.items:
             print(item)
-
