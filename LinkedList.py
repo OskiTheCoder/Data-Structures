@@ -42,7 +42,7 @@ class LinkedList:
         toAdd.next = self.head
         self.head = toAdd
 
-    def deleteValue(self, value):
+    def delete_value(self, value):
 
         if not self.head:
             return False
